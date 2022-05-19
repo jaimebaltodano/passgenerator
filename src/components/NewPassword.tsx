@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 import { initState } from "../store";
 
-const NewPassword = (): JSX.Element => {
+const NewPassword: React.FC = () => {
   const newPass = useSelector((state: initState) => state.password);
   return <div className="passworddiv">{newPass}</div>;
 };

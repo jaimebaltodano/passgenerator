@@ -13,7 +13,7 @@ const initState: PasswordConfig = {
   activeCapital: true,
   activeLower: true,
 };
-const ConfigPanel = (): JSX.Element => {
+const ConfigPanel: React.FunctionComponent = () => {
   const [currentConfig, setCurrentConfig] =
     useState<PanelState["config"]>(initState);
   const { password, generatePass } = useRandom();
