@@ -5,7 +5,7 @@ import {
   Symbols,
   Letters,
   Feature,
-} from "../Type";
+} from "../types.d";
 import { useDispatch } from "react-redux";
 
 const useRandon = () => {

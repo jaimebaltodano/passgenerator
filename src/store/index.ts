@@ -1,5 +1,5 @@
 import { createStore } from "redux";
-import { Action, ActionTypes } from "../Type";
+import { Action, ActionTypes } from "../types.d";
 
 export interface initState {
   password: string;

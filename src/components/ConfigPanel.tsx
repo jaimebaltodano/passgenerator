@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { PasswordConfig } from "../Type";
+import { PasswordConfig } from "../types.d";
 import useRandom from "../hooks/useRandom";
 
 interface PanelState {
